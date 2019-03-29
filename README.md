@@ -32,15 +32,16 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
-1. What is the difference between an adaptive website and a fully responsive website?
+1. What is the difference between an adaptive website and a fully responsive website? the simplest way i would differentiate the two would be in how they react to widths. essentially they are the same becasue they change according to size of screen (mainly width) BUT the difference is a fully responsive will adjust more smoothly at ANY width while adaptive snaps and is more stiff but only at certain breakpoints.
 
-2. Describe what it means to be mobile first vs desktop first.
+2. Describe what it means to be mobile first vs desktop first. a mobile first design is a file that has been started with mobile devices in mind in terms of width and viewport first while desktop first is the opposite. Each with their own media queries for specific breakpoints.
 
-3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units? Since 16px is a very common starting size for most browsers, giving our html 62% of that would make OUR starting point 10px making the math easier for us and since rem takes the "root" we would always start at 10.
 
-4. How would you describe preprocessing to someone new to CSS?
+4. How would you describe preprocessing to someone new to CSS? Preprocessing is for the developer. The user would never know we use one. It makes our lives easier as it lets us be more organized and have a some more extra features that css does not. Like mixins, nesting etc ...
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+I think the thing i enjoy the most about it is escaping just because i can already imagine being told to change the device and having an escape would be so handy and time saving. One thing im still having trouble with is parts of nesting, like using "&". i havent practiced it much so maybe thats why but i cant seem to fully wrap my head around it. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
