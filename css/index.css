@@ -245,12 +245,17 @@ footer {
   background: #23293B;
   width: 120px;
   height: 40px;
-  border-radius: 8px;
+  color: white;
+  font-size: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
-  font-size: 2rem;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.home .walk .walk-text .btn:hover {
+  color: #23293B;
+  background: white;
 }
 .home .walk .walk-img {
   width: 46%;
